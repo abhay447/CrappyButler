@@ -1,0 +1,19 @@
+#include <dirent.h>
+#include <stdio.h>
+#include<iostream>
+using namespace std;
+int main()
+{
+    const char* PATH = "./train";
+    DIR *dir = opendir(PATH);
+    struct dirent *entry = readdir(dir);
+    while (entry != NULL)
+    {
+        if (entry->d_type == DT_DIR)
+            cout<<entry->d_name<<endl;
+        entry = readdir(dir);
+    }
+    closedir(dir);
+
+    return 0;
+}
