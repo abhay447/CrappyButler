@@ -1,7 +1,0 @@
-/********************************************THIS IS A CRAPPY SPEECH RECOGNITION ENGINE******************************************************/
-It started of as a pet project to fulfill my desire to have some sort of a jarvis/butler with offline speech recognition. I ended up writing a 
-crappy engine for it. So unlike some of the best or even workable engines which use phonetics, I went on to use a vocabulary based system. 
-This step might prove to hazardous at a later stage as the vocabulary grows large ,but hey, this isn't an enterprise software, this is just a 
-pet project that I started when I failed at my startup and internship tests for the likes of Goldman.
-So have patience to bear some shitty code and some shittier models with below noob level algo/DS implementations and enjoy the show.
-/-----------P.S.=> If you hate then please keep it to yourself but If you like it then do reach out. <=--------------------------------------/

@@ -21,5 +21,3 @@ weather_notes += "\n. Have a nice day sir"
 engine.say(weather_notes)
 engine.runAndWait()
 
-
-
