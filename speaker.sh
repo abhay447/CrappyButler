@@ -36,6 +36,9 @@ case $command in
 "weather")
     python buffer/responses/weather.py >/dev/null 2>&1
 ;;
+"news")
+    python buffer/responses/gather.py >/dev/null 2>&1
+;;
 *)
 	aplay buffer/responses/right_away_sir.wav >/dev/null 2>&1
 ;;
