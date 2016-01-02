@@ -33,6 +33,9 @@ case $command in
     aplay buffer/responses/decreasing_volume.wav >/dev/null 2>&1
     amixer -c 1 sset Master 10%- >/dev/null 2>&1
 ;;
+"weather")
+    python buffer/responses/weather.py >/dev/null 2>&1
+;;
 *)
 	aplay buffer/responses/right_away_sir.wav >/dev/null 2>&1
 ;;
