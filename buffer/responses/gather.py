@@ -23,13 +23,13 @@ for link in LINKS:
 	headline.replace(r"\r\n","")
 	headline.replace(r"\n","")
 	HEADLINES.append(headline)
-	os.system('aplay beep-04.wav')
+	os.system('aplay buffer/responses/beep-04.wav >/dev/null 2>&1')
 	engine.say(headline)
 	#print headline
-
-engine.say("Thats all for now, have a nice day saaar.")
+	
+engine.setProperty('rate', rate)
+engine.say("Thats all for now, Haastalavista Baby.")
+engine.say(" ")
 engine.runAndWait()
-
-
 
 
