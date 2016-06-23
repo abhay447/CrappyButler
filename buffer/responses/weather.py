@@ -5,7 +5,7 @@ engine.setProperty('rate', rate-50)
 engine.say('Searching for weather data in varanasi.')
 engine.say('Please wait for processing of request')
 
-owm = pyowm.OWM('f7de1c2dbbc5ee27502aa0043ebcda36')
+owm = pyowm.OWM('YOUR API KEY')
 observation = owm.weather_at_place('Varanasi')
 w = observation.get_weather()
 condition = w.get_status()
